@@ -17,29 +17,30 @@
         </div>
       </div>
     </header>
+    <div class="container">
     <!-- Signup form -->
-    <form class="signup-form" action="post">
+    <form class="signup-form" action="https://httpbin.org/anything" method="post">
       <label for="question1">Name:</label>
-      <input id="question1" name="question" type="text" />
-
+      <input id="name" name="name" type="text">
+      <br>
       <label for="question2">When did you start the course?</label>
-      <input id="question1" name="question" type="date" />
-      <fieldset>
+      <input id="date" name="date" type="date">
+      <fieldset class="grade">
         <legend>Grade your experience</legend>
         <p>1 is very bad and 5 is very good</p>
         <label for="question4">1</label>
-        <input id="question1" name="question" type="radio" />
+        <input id="radio1" name="grade" type="radio">
         <label for="question4">2</label>
-        <input id="question1" name="question" type="radio" />
+        <input id="radio2" name="grade" type="radio">
         <label for="question4">3</label>
-        <input id="question1" name="question" type="radio" />
+        <input id="radio3" name="grade" type="radio">
         <label for="question4">4</label>
-        <input id="question1" name="question" type="radio" />
+        <input id="radio4" name="grade" type="radio">
         <label for="question4">5</label>
-        <input id="question1" name="question" type="radio" />
+        <input id="radio5" name="grade" type="radio">
       </fieldset>
       <label for="question3">Any comments?</label>
-      <input id="question1" name="question" type="text" />
+      <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
       <button type="submit">Submit</button>
     </form>
 
@@ -47,20 +48,30 @@
       <!-- Accordion -->
       <h1>FAQ</h1>
 
-      <div class="question" id="section1">Section 1</div>
+      <div class="question" id="section1">What is a Web Development Boot Camp?</div>
       <div class="answer">
-        <p>Lorem ipsum...</p>
+        <p>We’re a part-time programming boot camp for anyone who wants to build digital products using JavaScript, React and Node.js.</p>
       </div>
 
-      <div class="question" id="section2">Section 2</div>
+      <div class="question" id="section2">What will you learn?</div>
       <div class="answer">
-        <p>Lorem ipsum...</p>
+        <p>Frontend development using JavaScript, React Hooks, Redux and more.
+          Backend development using Node.js, Express, MongoDB and more.
+          Responsive and mobile-friendly web pages using HTML and CSS.
+          How to use, build and consume APIs.
+          Industry-standard collaboration tools and ways-of-working such as GitHub, Agile, mob programming and more.
+          Soft skills such as growth mindset, teamwork, and how to build your professional developer profile to advance your career.</p>
       </div>
     </section>
+  </div>
     <!-- dont forget to link the javascript file here! -->
     <script src="./script.js"></script>
 
     <!--Add a footer-->
-    <footer></footer>
+    <footer>
+      <div class="footer-img">
+        <img src="./logo.svg"> 
+     </div>
+    </footer>
   </body>
 </html>
