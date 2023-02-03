@@ -46,7 +46,7 @@ html {
 .signup-form {
   grid-column: 3 / span 1;
   margin: 20px 0;
-  background-color: antiquewhite;
+  background-color: pink;
   padding: 20px;
 }
 
@@ -100,7 +100,7 @@ button {
 
 button:hover {
   background-color: pink;
-  text-decoration: line-through;
+  border: solid 2px black;
   box-shadow: 5px 5px aqua;
 }
 
