@@ -13,4 +13,4 @@ Describe how you approached to problem, and what tools and techniques you used t
 We decided what the form should be and wanted to have several different functions and elements. We used HTML, CSS and Javascript. It was fun to try mob programming and I think we could contribute a lot each of us. With more time I think we should have planned the project more.
 
 ## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://bejewelled-hotteok-2392dd.netlify.app/
